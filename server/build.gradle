@@ -1,0 +1,6 @@
+dependencies {
+    compile project(':common')
+}
+
+apply plugin: 'application'
+mainClassName = 'server.ServerGUI'
